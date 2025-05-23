@@ -124,6 +124,7 @@ pada bagian ini diberikan visualisasi antara beberapa komponen yang saling berki
 Outliers adalah nilai ekstrem yang jauh dari distribusi umum data. Kehadiran outliers dapat mengganggu proses pelatihan model, terutama dalam algoritma yang sensitif terhadap distribusi data. Mengurangi distorsi pada statistik dan model yang dihasilkan, serta meningkatkan stabilitas dan akurasi model. pada model ini menggunakan pendekatan Interquartile Range (IQR). IQR merupakan metode statistik yang mengukur sebaran tengah data dan mengidentifikasi nilai-nilai yang berada jauh di luar rentang normal
 
 ## 2. Encoding Data Kategorikal
+Beberapa fitur dalam dataset bersifat kategorikal (bukan numerik), seperti `Status` agar fitur ini dapat digunakan oleh algoritma machine learning (yang umumnya hanya menerima input numerik), dilakukan proses encoding, yaitu mengubah nilai kategorikal menjadi numerik. 
 
 ## 3. Seleksi Fitur (Feature Selection)
 Seleksi fitur adalah proses memilih subset dari fitur yang paling relevan terhadap target. Terlalu banyak fitur yang tidak penting dapat menyebabkan overfitting. Meningkatkan performa model, mengurangi waktu pelatihan, dan mencegah kompleksitas berlebih yang dapat menurunkan generalisasi model. Pada Selection Feature ini diambil dengan menghitung nilai korelasi tertinggi.
@@ -160,10 +161,6 @@ Dalam proyek ini, digunakan:
 ## Clasification Report
 **Classification Report** adalah ringkasan metrik evaluasi untuk model klasifikasi. Laporan ini memberikan wawasan tentang kinerja model dengan membandingkan label yang diprediksi terhadap label sebenarnya.
 Classification Report biasanya mencakup metrik berikut untuk setiap kelas:
-- **Precision**
-- **Recall**
-- **F1-score**
-- **Support**
 
 | **Metrik**  | **Deskripsi**                                                                                   |
 |-------------|--------------------------------------------------------------------------------------------------|
@@ -207,8 +204,11 @@ Aplikasi dibangun menggunakan Streamlit dan berfungsi sebagai dashboard interakt
 **Visualisasi dari Data CSV yang Diunggah**
 Pengguna dapat mengunggah file .csv berisi data banyak mahasiswa.
 Dashboard akan menampilkan dua visualisasi:
+
     - 📊 Distribusi Dropout Berdasarkan Jumlah Mata Kuliah Lulus Semester 1
+
     - 📊 Proporsi Dropout Berdasarkan Status Beasiswa
+
 Visualisasi ini memberikan insight awal terkait karakteristik umum dari mahasiswa dropout, khususnya dari segi akademik dan bantuan keuangan.
 
 🎯 Akses aplikasi online: [pred_app](https://education-performance.streamlit.app/)
