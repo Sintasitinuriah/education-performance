@@ -196,9 +196,13 @@ Dashboard pada gambar di atas hanya dapat diakses di lingkungan lokal proyek saj
 Solusi machine learning ini dikembangkan sebagai alat bantu awal bagi Jaya Jaya Institut untuk memprediksi kemungkinan dropout mahasiswa berdasarkan data historis akademik dan administratif.
 
 Aplikasi dibangun menggunakan Streamlit dan berfungsi sebagai dashboard interaktif sederhana yang memiliki dua fitur utama:
+
     - Prediksi Status Mahasiswa (Dropout / Graduate)
+
     - Pengguna dapat memasukkan data individual mahasiswa melalui form input.
+
     - Model prediksi menggunakan algoritma Support Vector Machine (SVM) dengan kernel linear.
+    
     - Output yang ditampilkan berupa status: Dropout atau Graduate.
 
 **Visualisasi dari Data CSV yang Diunggah**
