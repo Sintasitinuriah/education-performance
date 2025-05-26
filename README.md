@@ -197,6 +197,12 @@ Login Metabase menggunakan akun berikut:
 | ------------------------------------- | --------- |
 | [root@mail.com](mailto:root@mail.com) | admin1234 |
 
+Dashboard opsional dengan menggunakan Looker Studio:
+![Looker](Looker_1.png)
+![Looker](Looker_2.png)
+
+Link: [Performance Education Dashboard](https://lookerstudio.google.com/reporting/28279665-317e-4a7c-bcbf-d54818f6bbd8)
+
 ## Solusi Machine Learning
 Solusi machine learning ini dikembangkan sebagai alat bantu awal bagi Jaya Jaya Institut untuk memprediksi kemungkinan dropout mahasiswa berdasarkan data historis akademik dan administratif.
 
