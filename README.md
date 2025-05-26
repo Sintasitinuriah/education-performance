@@ -192,6 +192,11 @@ Untuk mempermudah pemantauan dan analisis  performa siswa secara berkala, telah 
 
 Dashboard pada gambar di atas hanya dapat diakses di lingkungan lokal proyek saja. sehingga penjelasan dashboard ada pada video sintastnrh-video.mp4
 
+Login Metabase menggunakan akun berikut:
+| Email                                 | Password  |
+| ------------------------------------- | --------- |
+| [root@mail.com](mailto:root@mail.com) | admin1234 |
+
 ## Solusi Machine Learning
 Solusi machine learning ini dikembangkan sebagai alat bantu awal bagi Jaya Jaya Institut untuk memprediksi kemungkinan dropout mahasiswa berdasarkan data historis akademik dan administratif.
 
