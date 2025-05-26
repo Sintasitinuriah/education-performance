@@ -81,6 +81,10 @@ Buka browser dan akses:
 ```
 http://localhost:3000
 ```
+Login Metabase menggunakan akun berikut:
+| Email                                 | Password  |
+| ------------------------------------- | --------- |
+| [root@mail.com](mailto:root@mail.com) | admin1234 |
 
 ### 5. Hentikan Docker
 
@@ -191,11 +195,6 @@ Untuk mempermudah pemantauan dan analisis  performa siswa secara berkala, telah 
 - Faktor mempengaruhi dropout seperti nilai, usia, kelulusan mata kuliah, beasiswa dan hutang/tunggakan.
 
 Dashboard pada gambar di atas hanya dapat diakses di lingkungan lokal proyek saja. sehingga penjelasan dashboard ada pada video sintastnrh-video.mp4
-
-Login Metabase menggunakan akun berikut:
-| Email                                 | Password  |
-| ------------------------------------- | --------- |
-| [root@mail.com](mailto:root@mail.com) | admin1234 |
 
 Dashboard opsional dengan menggunakan Looker Studio:
 ![Looker](Looker_1.png)
