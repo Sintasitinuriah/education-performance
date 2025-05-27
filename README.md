@@ -198,7 +198,6 @@ Dashboard pada gambar di atas hanya dapat diakses di lingkungan lokal proyek saj
 
 Dashboard opsional dengan menggunakan Looker Studio:
 ![Looker](Looker_1.png)
-![Looker](Looker_2.png)
 
 Link: [Performance Education Dashboard](https://lookerstudio.google.com/reporting/28279665-317e-4a7c-bcbf-d54818f6bbd8)
 
